@@ -2,6 +2,9 @@ header {
 	background: #bbbbbb;
 	padding: 20px 0;
 }
+.imagem_logo {
+	width: 25%;
+}
 .caixa {
 	position: relative;
 	width:  940px;
@@ -22,5 +25,35 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+.imagem_produtos {
+	width: 100%;
+}
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
 
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	background: #CCCCCC;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.produto_descricao {
+ 	font-weight: 18px;
+}
+.link_produto {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
