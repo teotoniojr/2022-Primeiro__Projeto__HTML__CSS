@@ -7,7 +7,7 @@ nav {
 	right: 0;
 }
 nav li {
-	display: inline;
+	display: inline-block;
 	margin: 0 0 0 0px;	
 }
 nav a {
