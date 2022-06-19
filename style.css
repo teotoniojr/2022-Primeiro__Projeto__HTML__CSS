@@ -1,10 +1,16 @@
 body{
 	background: #9c7044;
 }
+.caixa {
+	position: relative;
+	width:  940px;
+	margin: 0 auto;
+}
 nav {
+	display: inline-block;
 	position: absolute;
-	top: 100px;
-	right: 0;
+	top: -30px;
+	right: 20px;
 }
 nav li {
 	display: inline-block;
@@ -28,10 +34,12 @@ nav a {
 }
 .titulo-principal{
 	padding-left: 20px;
+	padding-right: 60px ;
 	color: #ece0c0;
 }
 
 .titulo-centralizado{
+	font-size: 30px;
 	text-align: center; 
 }
 h2{
@@ -47,7 +55,11 @@ em{
 	color: #A47C51;
 }
 .itens{
+	font-size: 30px;
 	font-style: italic;
+	border-spacing: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #missao {
