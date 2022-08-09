@@ -1,5 +1,9 @@
-body{
+header {
 	background: #9c7044;
+	padding: 20px 0;
+}
+.imagem_logo {
+	width: 20%;
 }
 .caixa {
 	position: relative;
@@ -7,14 +11,13 @@ body{
 	margin: 0 auto;
 }
 nav {
-	display: inline-block;
 	position: absolute;
-	top: -30px;
-	right: 20px;
+	top: 110px;
+	right: 0;
 }
 nav li {
 	display: inline-block;
-	margin: 0 0 0 0px;	
+	margin: 0 0 0 15px;	
 }
 nav a {
 	text-transform:  uppercase;
@@ -24,62 +27,119 @@ nav a {
 	text-decoration: none;
 }
 
-#kfe {
+nav a:hover {
+	color: #ECE0C0;
+	text-decoration: underline;
+} 
+
+.imagem_produtos {
 	width: 100%;
 }
-
-.principal{
-	background: #ECE0C0;
-	padding: 30px;
-}
-.titulo-principal{
-	padding-left: 20px;
-	padding-right: 60px ;
-	color: #ece0c0;
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
-.titulo-centralizado{
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #684f3b;
+	border-radius: 10px;
+}
+.produtos li:hover {
+	border-color: #ECE0C0;
+}
+
+.produtos li:active {
+	border-color: #000000;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
 	font-size: 30px;
-	text-align: center; 
+	font-weight: bold;
 }
-h2{
-	color: #684f3b;
+.produto_descricao {
+ 	font-weight: 18px;
 }
-p{
-	text-align: center;;
+.link_produto {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
-strong{
-	color: #684f3b;
+footer {
+	text-align: center;
+	background: #9c7044;
+	font-size: 13px;
 }
-em{
-	color: #A47C51;
+.imagem_logo_rodape {
+	width: 10%;
 }
-.itens{
-	font-size: 30px;
-	font-style: italic;
-	border-spacing: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+main{
+	width: 940px;
+	margin: 0 auto;
 }
-
-#missao {
+form{
+	margin:  40px 0;
+}
+form label, form legend {
+	display:block;
 	font-size: 20px;
+	margin: 0 0 10px;
 }
-h3{
-	color: #ece0c0;
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
-.beneficios{
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #ece0c0;
+	color: #684f3b;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.enviar:hover {
 	background: #684f3b;
 	color: #ece0c0;
-	padding: 20px;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 30px 0 40px;
+}
+thead{
+	background: #b08968;
+	color: #583101;
+	font-weight: bold;
+}
+tbody{
+	background: #f0ead2;
+	color: #583101;
 
 }
-ul{
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-.cavalos{
-	width: 50%;
+td, th{
+	border: 2px solid #583101;
+	padding: 5px 10px;
 }
