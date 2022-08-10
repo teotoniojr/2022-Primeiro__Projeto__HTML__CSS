@@ -3,13 +3,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Chácara e livraria Kfé</title>
-		<link rel="stylesheet" href="style-home.css"> 
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 		
 	</head>
 
 	<body>
-		<header class="caixa">
-			<h1 class= "titulo-principal">Chácara e livraria Kfé</h1>
+		<header>
+			<div class = "caixa">
+				<h1><img class="imagem_logo" src="logo-Kfe.png"></h1>
 				<nav>
 					<ul>
 						<li><a href="index.html"> Home</a></li>
@@ -17,12 +22,16 @@
 						<li><a href="contato.html"> Contato</a></li>
 					</ul>
 				</nav>
+			</div>	
 		</header>
-		<img id="kfe" src="Kfe.jpg">
-		
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Chácara e livraria Kfé</h2>
 
+		<img class="kfe" src="Kfe.jpg">
+		
+		<main>
+		<section class="principal">
+			<h2 class="titulo-principal">Sobre a Chácara e livraria Kfé</h2>
+
+			<img class="patos" src="patos.jpg" alt="patos e mesas">
 			<p>Sobre a <strong>Chácara e livraria Kfé</strong>: Localizada em um lugar tranquilo e com muita natureza ao redor.</p>
 
 			<p>Venha relaxar no seu momento de leitura e aproveitar o melhor de uma brisa fresca e um café quentinho. Sem contar com nosso acervo de livros disponiveis.</p>
@@ -30,10 +39,10 @@
 			<p id="missao"><em><strong>A missão da Chacará e livraria Kfé é</strong> : Ser um lugar para recarregar as energias e esquecer o stress da cidade grande. Você pode pegar sua mesa em nossos espaços únicos, com o maior silêncio possivel para ler seus livros, ou trocar uma ideia com seus amigos.</em></p> 
 
 			<p>Venha nos visitar, e tenha o seu momento de relaxamento profundo.</p>
-		</div>
+		</section>
 
-		<div class="beneficios";>
-			<h3 class="titulo-centralizado">Benefícios</h3> 
+		<section class="beneficios";>
+			<h3 class="titulo-principal">Benefícios</h3> 
 
 			<ul>
 				<li class="itens">Contato com a natureza</li>
@@ -42,6 +51,12 @@
 				<li class="itens">Eventos Culturais</li>
 			</ul>
 			<img src="cavalos.jpg" class="cavalos">
-		</div>
+		</section>
+
+		</main>
+		<footer>
+			<img class="imagem_logo_rodape" src="logo-Kfe.png">
+			<p>&copy; Copyrigth Chácara Kfé 2022</p>
+		</footer>	
 	</body>
 </html>

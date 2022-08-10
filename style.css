@@ -1,3 +1,7 @@
+body{
+	font-family: 'Roboto Mono', monospace;
+}
+
 header {
 	background: #9c7044;
 	padding: 20px 0;
@@ -142,4 +146,35 @@ tbody{
 td, th{
 	border: 2px solid #583101;
 	padding: 5px 10px;
+}
+
+/* Página inicial */
+
+.kfe{
+	width: 100%;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 1em 0 1em;
+	clear: left;
+}
+.principal p {
+	margin: 1em 0 1em;
+	padding: 1em 0 1em;
+}
+.principal strong {
+	font-weight: bold;
+}
+.principal em {
+	font-style: italic;
+}
+.patos {
+	width: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.cavalos {
+	width: 60%;
 }
